@@ -1,0 +1,32 @@
+{
+  "name": "blog-list",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.26",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.5.0",
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Simonoob/MOOC-2020-subm.-4.1-.git"
+  },
+  "author": "Simone Fiorentini",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Simonoob/MOOC-2020-subm.-4.1-/issues"
+  },
+  "homepage": "https://github.com/Simonoob/MOOC-2020-subm.-4.1-#readme"
+}
